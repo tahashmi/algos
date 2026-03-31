@@ -16,7 +16,6 @@ The algorithm uses the following scoring parameters:
 | **Mismatch** | `-1` |
 | **Gap (Indel)** | `-2` |
 
---
 
 ##  Implemented Methods
 
@@ -49,7 +48,6 @@ Unlike Needleman-Wunsch (Global), Smith-Waterman identifies the most similar **s
 - **Gap:** `-2`
 - **Floor:** `0` (Scores never drop below zero)
 
---
 
 ## Implementation Methods
 

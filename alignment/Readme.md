@@ -52,7 +52,10 @@ Unlike Needleman-Wunsch (Global), Smith-Waterman identifies the most similar **s
 
 ## Implementation Methods
 
-### 2.1. **Naive Recursive**: Calculates the local alignment score by exploring all paths. Extremely slow for sequences > 10 chars.
-### 2.2. **Top-Down (Memoization)**: Uses a 2D cache to store sub-alignment scores, significantly optimizing the recursive approach.
-### 2.3. **Bottom-Up (Tabulation)**: The standard iterative matrix-filling approach. It finds the global maximum in the table and backtracks until it hits a zero.
+### 2.1. **Naive Recursive**: 
+Calculates the local alignment score by exploring all paths. Extremely slow for sequences > 10 chars.
+### 2.2. **Top-Down (Memoization)**: 
+Uses a 2D cache to store sub-alignment scores, significantly optimizing the recursive approach.
+### 2.3. **Bottom-Up (Tabulation)**: 
+The standard iterative matrix-filling approach. It finds the global maximum in the table and backtracks until it hits a zero.
 

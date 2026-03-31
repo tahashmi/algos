@@ -16,7 +16,6 @@ The algorithm uses the following scoring parameters:
 | **Mismatch** | `-1` |
 | **Gap (Indel)** | `-2` |
 
-
 ##  Implemented Methods
 
 ### 1.1 Naive Recursive
@@ -48,7 +47,6 @@ Unlike Needleman-Wunsch (Global), Smith-Waterman identifies the most similar **s
 - **Gap:** `-2`
 - **Floor:** `0` (Scores never drop below zero)
 
-
 ## Implementation Methods
 
 ### 2.1. **Naive Recursive**: 
@@ -57,4 +55,8 @@ Calculates the local alignment score by exploring all paths. Extremely slow for 
 Uses a 2D cache to store sub-alignment scores, significantly optimizing the recursive approach.
 ### 2.3. **Bottom-Up (Tabulation)**: 
 The standard iterative matrix-filling approach. It finds the global maximum in the table and backtracks until it hits a zero.
+
+[Needleman-Wunsch Online Tool](https://needleman-wunsch.com/)
+
+[An Analysis of Pairwise Sequence Alignment Algorithm Complexities: Needleman-Wunsch, Smith-Waterman, FASTA, BLAST and Gapped BLAST](https://biochem218.stanford.edu/Projects%202004/Chan.pdf)
 

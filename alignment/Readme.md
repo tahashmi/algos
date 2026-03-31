@@ -16,7 +16,7 @@ The algorithm uses the following scoring parameters:
 | **Mismatch** | `-1` |
 | **Gap (Indel)** | `-2` |
 
----
+--
 
 ##  Implemented Methods
 
@@ -35,6 +35,7 @@ The algorithm uses the following scoring parameters:
 - **Complexity:** $O(n \times m)$.
 - **Description:** This is the standard "Production" version of Needleman-Wunsch. It fills a $(N+1) \times (M+1)$ scoring matrix and then backtracks from the bottom-right corner to the top-left to find the optimal path.
 
+---
 # 2. Smith-Waterman Local Alignment (C Implementation)
 
 This repo also implements the **Smith-Waterman Algorithm** for local sequence alignment using three different programming paradigms in C.
@@ -48,7 +49,7 @@ Unlike Needleman-Wunsch (Global), Smith-Waterman identifies the most similar **s
 - **Gap:** `-2`
 - **Floor:** `0` (Scores never drop below zero)
 
----
+--
 
 ## Implementation Methods
 

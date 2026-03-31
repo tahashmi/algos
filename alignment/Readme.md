@@ -56,6 +56,8 @@ Uses a 2D cache to store sub-alignment scores, significantly optimizing the recu
 ### 2.3. **Bottom-Up (Tabulation)**: 
 The standard iterative matrix-filling approach. It finds the global maximum in the table and backtracks until it hits a zero.
 
+[Global Alignment App - Needleman-Wunsch global alignment algorithm](https://bioboot.github.io/bimm143_W20/class-material/nw/)
+
 [Needleman-Wunsch Online Tool](https://needleman-wunsch.com/)
 
 [An Analysis of Pairwise Sequence Alignment Algorithm Complexities: Needleman-Wunsch, Smith-Waterman, FASTA, BLAST and Gapped BLAST](https://biochem218.stanford.edu/Projects%202004/Chan.pdf)

@@ -34,3 +34,25 @@ The algorithm uses the following scoring parameters:
 - **Approach:** Iterative matrix filling.
 - **Complexity:** $O(n \times m)$.
 - **Description:** This is the standard "Production" version of Needleman-Wunsch. It fills a $(N+1) \times (M+1)$ scoring matrix and then backtracks from the bottom-right corner to the top-left to find the optimal path.
+
+# 2. Smith-Waterman Local Alignment (C Implementation)
+
+This repo also implements the **Smith-Waterman Algorithm** for local sequence alignment using three different programming paradigms in C.
+
+## Algorithm Purpose
+Unlike Needleman-Wunsch (Global), Smith-Waterman identifies the most similar **sub-regions** between two sequences. It is widely used for identifying conserved domains or motifs.
+
+### Scoring
+- **Match:** `+1`
+- **Mismatch:** `-1`
+- **Gap:** `-2`
+- **Floor:** `0` (Scores never drop below zero)
+
+---
+
+## Implementation Methods
+
+### 2.1. **Naive Recursive**: Calculates the local alignment score by exploring all paths. Extremely slow for sequences > 10 chars.
+### 2.2. **Top-Down (Memoization)**: Uses a 2D cache to store sub-alignment scores, significantly optimizing the recursive approach.
+### 2.3. **Bottom-Up (Tabulation)**: The standard iterative matrix-filling approach. It finds the global maximum in the table and backtracks until it hits a zero.
+

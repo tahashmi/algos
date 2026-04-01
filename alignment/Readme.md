@@ -60,5 +60,7 @@ The standard iterative matrix-filling approach. It finds the global maximum in t
 
 [Needleman-Wunsch Online Tool](https://needleman-wunsch.com/)
 
+[Freiburg RNA Tools, Teaching - Smith-Waterman](https://rna.informatik.uni-freiburg.de/Teaching/index.jsp?toolName=Smith-Waterman)
+
 [An Analysis of Pairwise Sequence Alignment Algorithm Complexities: Needleman-Wunsch, Smith-Waterman, FASTA, BLAST and Gapped BLAST](https://biochem218.stanford.edu/Projects%202004/Chan.pdf)
 

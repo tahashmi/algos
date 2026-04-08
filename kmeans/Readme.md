@@ -25,6 +25,13 @@ The industry-standard implementation using the `KMeans` class. This is the most 
 * **API:** Follows the familiar `.fit()` and `.predict()` paradigm.
 * **Optimization:** Highly parallelized and includes parameters to handle multiple initializations (`n_init`) to find the global optimum.
 
+## 4. Elbow Method (Optimal K Selection)
+To determine the ideal number of clusters for a dataset, this project includes an implementation of the **Elbow Method**.
+
+* **Metric:** Uses **Inertia** (Within-Cluster Sum of Squares) to measure how tightly grouped the clusters are.
+* **Interpretation:** The optimal $k$ is found at the "elbow" point—the point of maximum curvature where adding more clusters no longer provides significant improvements in data fit.
+* **Optimization:** Runs multiple simulations across a range of $k$ (e.g., 1-10) to visualize the trade-off between cluster density and model complexity.
+
 ---
 
 ## Getting Started

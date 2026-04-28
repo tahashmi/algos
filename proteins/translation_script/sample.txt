@@ -26,3 +26,10 @@ https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVi
 
 Look at ClinVar
 https://www.ncbi.nlm.nih.gov/clinvar/?gene=CXCL10&term=%22CXCL10%22%5BGENE%5D
+______________________________________________________________________________________________________
+Check it in AlphaFold2 Server
+https://alphafoldserver.com/fold/57ab6dfe77f14862
+
+Run it in AlphaFold2 Colab
+https://github.com/tahashmi/algos/blob/main/AlphaFold2.ipynb
+https://github.com/tahashmi/algos/blob/main/AlphaFold2.ipynb

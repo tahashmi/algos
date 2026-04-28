@@ -32,3 +32,20 @@ https://alphafoldserver.com/fold/57ab6dfe77f14862
 
 Run it in AlphaFold2 Colab
 https://github.com/tahashmi/algos/blob/main/AlphaFold2.ipynb
+______________________________________________________________________________________________________
+CXCL10 (IP-10) is a chemokine that acts primarily as a ligand for the G protein-coupled receptor CXCR3. In the context of PDB (Protein Data Bank) structures, CXCL10 is often studied in complex with receptors, antibodies, or heparin (representing glycosaminoglycans).
+
+Key PDB Structural Complexes & Ligands
+
+CXCR3 Receptor (8K2X): A major structure showing the CXCR3-DNGi complex activated by CXCL10.
+Heparin/GAGs (1LV9): Structural study of CXCL10 binding to heparin, demonstrating how it binds to glycosaminoglycans on cell surfaces.
+Antibodies/Neutralizers (1O80): Crystal structure of IP-10 (CXCL10) H-form.
+Small Molecule Inhibitors (Potential): Research has identified small molecules, such as MCULE2726078782-0-2, as potential inhibitors designed to bind CXCL10 and block its interaction with CXCR3. 
+
+https://www.rcsb.org/structure/1LV9
+https://www.rcsb.org/3d-view/1LV9
+
+MAPK kinase kinase (MAP3K) 
+MAPK kinase (MAP2K) 
+MAPK
+

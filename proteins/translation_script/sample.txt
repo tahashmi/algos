@@ -1,0 +1,28 @@
+python3  dna_to_mrna_protein.py --blast P02778.fasta
+______________________________________________________________________________________________________
+Input DNA sequence:
+ATGAATCAAACTGCGATTCTGATTTGCTGCCTTATCTTTCTGACGCTCTCTGGCATCCAAGGGGTACCTCTCTCTAGAACCGTACGCTGTACCTGCATCAGCATTAGCAATCAGCCAGTAAACCCACGTTCCTTGGAAAAATTGGAAATTATCCCTGCATCCCAGTTCTGCCCACGTGTTGAGATCATTGCTACAATGAAAAAGAAGGGTGAGAAGAGATGTCTGAATCCGGAATCTAAGGCCATCAAGAATTTACTGAAAGCAGTTAGCAAGGAAAGGTCTAAAAGATCCCCT
+
+DNA sequence used for translation:
+ATGAATCAAACTGCGATTCTGATTTGCTGCCTTATCTTTCTGACGCTCTCTGGCATCCAAGGGGTACCTCTCTCTAGAACCGTACGCTGTACCTGCATCAGCATTAGCAATCAGCCAGTAAACCCACGTTCCTTGGAAAAATTGGAAATTATCCCTGCATCCCAGTTCTGCCCACGTGTTGAGATCATTGCTACAATGAAAAAGAAGGGTGAGAAGAGATGTCTGAATCCGGAATCTAAGGCCATCAAGAATTTACTGAAAGCAGTTAGCAAGGAAAGGTCTAAAAGATCCCCT
+
+mRNA sequence:
+AUGAAUCAAACUGCGAUUCUGAUUUGCUGCCUUAUCUUUCUGACGCUCUCUGGCAUCCAAGGGGUACCUCUCUCUAGAACCGUACGCUGUACCUGCAUCAGCAUUAGCAAUCAGCCAGUAAACCCACGUUCCUUGGAAAAAUUGGAAAUUAUCCCUGCAUCCCAGUUCUGCCCACGUGUUGAGAUCAUUGCUACAAUGAAAAAGAAGGGUGAGAAGAGAUGUCUGAAUCCGGAAUCUAAGGCCAUCAAGAAUUUACUGAAAGCAGUUAGCAAGGAAAGGUCUAAAAGAUCCCCU
+
+Protein sequence:
+MNQTAILICCLIFLTLSGIQGVPLSRTVRCTCISISNQPVNPRSLEKLEIIPASQFCPRVEIIATMKKKGEKRCLNPESKAIKNLLKAVSKERSKRSP
+
+Likely protein name:
+C-X-C motif chemokine 10 precursor [Homo sapiens] >ref|XP_032005768.1| C-X-C motif chemokine 10 [Hylobates moloch] >sp|P02778.2| RecName: Full=C-X-C motif chemokine 10; AltName: Full=10 kDa interferon gamma-induced protein; Short=Gamma-IP10; Short=IP-10; AltName: Full=Small-inducible cytokine B10; Contains: RecName: Full=CXCL10(1-73); Flags: Precursor [Homo sapiens] >pdb|8K2X|L Chain L, C-X-C motif chemokine 10 [Homo sapiens] >gb|ABM83712.1| chemokine (C-X-C motif) ligand 10 [synthetic construct] >gb|AAH10954.1| Chemokine (C-X-C motif) ligand 10 [Homo sapiens] >gb|ABM87032.1| chemokine (C-X-C motif) ligand 10, partial [synthetic construct] >gb|EAX05772.1| chemokine (C-X-C motif) ligand 10, isoform CRA_a [Homo sapiens] >gb|EAX05773.1| chemokine (C-X-C motif) ligand 10, isoform CRA_a [Homo sapiens]
+______________________________________________________________________________________________________
+Enter above Protein sequence in:
+https://www.uniprot.org/blast
+
+Likely output:
+https://www.uniprot.org/uniprotkb/P02778/entry
+
+Look at genome.ucsc
+https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr4%3A76021393%2D76023772&hgsid=3943599150_zqfYWcezmMuJ5Q8VKiFw2xUa5jFZ
+
+Look at ClinVar
+https://www.ncbi.nlm.nih.gov/clinvar/?gene=CXCL10&term=%22CXCL10%22%5BGENE%5D

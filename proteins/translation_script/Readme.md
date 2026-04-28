@@ -8,6 +8,8 @@ This repository contains a Python script that takes a DNA gene sequence in FASTA
 
 The script uses Biopython, especially `Bio.Seq`, `Bio.SeqIO`, and optional NCBI BLAST tools.
 
+<img width="1268" height="710" alt="image" src="https://github.com/user-attachments/assets/8dbf1a02-5ff0-4e5b-953b-61ad707e46bc" />
+
 ---
 
 ## Repository files

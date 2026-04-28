@@ -32,4 +32,3 @@ https://alphafoldserver.com/fold/57ab6dfe77f14862
 
 Run it in AlphaFold2 Colab
 https://github.com/tahashmi/algos/blob/main/AlphaFold2.ipynb
-https://github.com/tahashmi/algos/blob/main/AlphaFold2.ipynb

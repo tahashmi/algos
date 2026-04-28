@@ -45,6 +45,9 @@ Small Molecule Inhibitors (Potential): Research has identified small molecules, 
 https://www.rcsb.org/structure/1LV9
 https://www.rcsb.org/3d-view/1LV9
 
+GNINA ligand - Molecular docking
+https://gist.github.com/tahashmi/e068aed649a4a0fc80755841224c61af
+
 MAPK kinase kinase (MAP3K) 
 MAPK kinase (MAP2K) 
 MAPK
